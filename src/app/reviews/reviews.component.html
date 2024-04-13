@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      .hoverable:hover {
+        transform: translateY(-5px);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-gray-300 font-sans">
+    <section class="py-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-8 text-center">
+          What Our Clients Say
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div
+            class="bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+          >
+            <div class="p-6 flex flex-col items-center">
+              <img
+                src="https://randomuser.me/api/portraits/men/1.jpg"
+                alt="Client 1"
+                class="w-20 h-20 rounded-full object-cover mb-4"
+              />
+              <h3 class="text-xl font-bold mb-2">John Doe</h3>
+              <p class="mb-4">
+                "I'm really impressed with the services provided. The team is
+                knowledgeable and responsive, and the results have exceeded my
+                expectations."
+              </p>
+              <div class="flex text-yellow-500 star-rating" data-rating="5">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+          >
+            <div class="p-6 flex flex-col items-center">
+              <img
+                src="https://randomuser.me/api/portraits/women/2.jpg"
+                alt="Client 2"
+                class="w-20 h-20 rounded-full object-cover mb-4"
+              />
+              <h3 class="text-xl font-bold mb-2">Jane Smith</h3>
+              <p class="mb-4">
+                "The services were top-notch, and the team's attention to detail
+                was impressive. I would highly recommend them to anyone in need
+                of their services."
+              </p>
+              <div class="flex text-yellow-500 star-rating" data-rating="4.5">
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+          >
+            <div class="p-6 flex flex-col items-center">
+              <img
+                src="https://randomuser.me/api/portraits/men/3.jpg"
+                alt="Client 3"
+                class="w-20 h-20 rounded-full object-cover mb-4"
+              />
+              <h3 class="text-xl font-bold mb-2">Michael Johnson</h3>
+              <p class="mb-4">
+                "I'm really satisfied with the services provided. The team was
+                professional, responsive, and delivered excellent results. I
+                would use their services again."
+              </p>
+              <div class="flex text-yellow-500 star-rating" data-rating="4">
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+          >
+            <div class="p-6 flex flex-col items-center">
+              <img
+                src="https://randomuser.me/api/portraits/women/4.jpg"
+                alt="Client 4"
+                class="w-20 h-20 rounded-full object-cover mb-4"
+              />
+              <h3 class="text-xl font-bold mb-2">Sarah Lee</h3>
+              <p class="mb-4">
+                "The team was very professional and responsive. They delivered
+                the project on time and the quality of their work was
+                excellent."
+              </p>
+              <div class="flex text-yellow-500 star-rating" data-rating="4.5">
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+          >
+            <div class="p-6 flex flex-col items-center">
+              <img
+                src="https://randomuser.me/api/portraits/men/5.jpg"
+                alt="Client 5"
+                class="w-20 h-20 rounded-full object-cover mb-4"
+              />
+              <h3 class="text-xl font-bold mb-2">David Kim</h3>
+              <p class="mb-4">
+                "I'm really impressed with the level of service and attention to
+                detail. The team went above and beyond to ensure I was
+                satisfied."
+              </p>
+              <div class="flex text-yellow-500 star-rating" data-rating="4.7">
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+          >
+            <div class="p-6 flex flex-col items-center">
+              <img
+                src="https://randomuser.me/api/portraits/women/6.jpg"
+                alt="Client 6"
+                class="w-20 h-20 rounded-full object-cover mb-4"
+              />
+              <h3 class="text-xl font-bold mb-2">Emily Nguyen</h3>
+              <p class="mb-4">
+                "I've worked with this team on multiple projects, and they have
+                always exceeded my expectations. I highly recommend their
+                services."
+              </p>
+              <div class="flex text-yellow-500 star-rating" data-rating="5">
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const starRatings = document.querySelectorAll(".star-rating");
+
+      starRatings.forEach((rating) => {
+        const ratingValue = parseFloat(rating.dataset.rating);
+        const stars = rating.querySelectorAll(".fas.fa-star");
+
+        stars.forEach((star, index) => {
+          if (index < Math.floor(ratingValue)) {
+            star.classList.add("text-yellow-500");
+          } else if (
+            index === Math.floor(ratingValue) &&
+            ratingValue % 1 !== 0
+          ) {
+            star.classList.add("text-yellow-500", "fa-star-half-alt");
+          } else {
+            star.classList.add("text-gray-500");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

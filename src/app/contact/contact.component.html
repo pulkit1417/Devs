@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body class="bg-gray-900 text-gray-300 font-sans">
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold mb-8 text-center">Contact Us</h2>
+      <div class="bg-gray-800 shadow-lg rounded-lg px-8 py-10 sm:px-12 sm:py-12 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+        <form>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label for="name" class="block font-medium mb-2">Name</label>
+              <input type="text" id="name" name="name" class="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required>
+            </div>
+            <div>
+              <label for="email" class="block font-medium mb-2">Email</label>
+              <input type="email" id="email" name="email" class="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required>
+            </div>
+          </div>
+          <div class="mt-6">
+            <label for="message" class="block font-medium mb-2">Message</label>
+            <textarea id="message" name="message" rows="5" class="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required></textarea>
+          </div>
+          <div class="mt-6 text-right">
+            <button type="submit" class="px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-300 ease-in-out">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+      <div>
+        <h3 class="text-lg font-bold mb-2">Our Address</h3>
+        <p>123 Main Street, Anytown USA</p>
+      </div>
+      <div class="flex space-x-6 mt-4 md:mt-0">
+        <a href="#" class="text-gray-400 hover:text-pink-500 transition-colors duration-300">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300">
+          <i class="fab fa-linkedin-in fa-2x"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-green-500 transition-colors duration-300">
+          <i class="fab fa-whatsapp fa-2x"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
